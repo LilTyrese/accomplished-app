@@ -1,0 +1,91 @@
+/* Mobile First -------------------------------- */
+
+
+/* Basic ---------------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+    font-style: normal;
+    padding: 30px;
+}
+
+header {
+    padding: ;
+    font-weight: bold;
+    display: flex;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 10px;
+}
+    
+/* Layout --------------------------------- */
+
+
+ul {
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+/* Block -------------------------------------- */
+
+.content{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tasks-to-complete__container{
+    
+}
+
+/* Project Section Cards */
+
+
+   
+
+/* Desktop Styles ------------------------------ */
+
+@media(min-width: 550px){
+    .title{
+        font-size: 20px;
+
+    }
+    .bio__profile-pic{
+        width: 30%;
+    }
+    .photo-card-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .project-gallery__card{
+        width: 20%;
+    }
+}
